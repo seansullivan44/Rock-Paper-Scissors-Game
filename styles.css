@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #24272E;
+}
+
+header{
+  background: white;
+  padding: 20px;
+}
+
+header > h1{
+  color: #24272E;
+  text-align: center;
+  font-family:'Black Han Sans', sans-serif;
+}
+
+.score-board{
+  margin: 20px auto;
+  border: 3px solid white;
+  border-radius: 40px;
+  text-align: center;
+  width: 300px;
+  color: white;
+  font-size: 46px;
+  padding: 15px 20px;
+  font-family:'Black Han Sans', sans-serif;
+  position: relative;
+}
+
+.badge{
+  background: #4CAF50;
+  border-radius: 40px;
+  color: white;
+  font-size: 20px;
+  padding: 2px 10px;
+  font-family:'Black Han Sans', sans-serif;
+}
+
+#user-label{
+  position: absolute;
+  left: -40px;
+  top: 30px;
+}
+
+#computer-label{
+  position: absolute;
+  right: -60px;
+  top: 30px;
+}
+
+.outcome{
+  font-size: 30px;
+  color: white;
+}
+
+.outcome > p {
+  text-align: center;
+  font-family:'Black Han Sans', sans-serif;
+}
+
+.moves{
+  margin: 50px 0px;
+  text-align: center;
+}
+
+.move{
+  display: inline-block;
+  padding: 5px;
+}
+
+.move:hover{
+  cursor: pointer;
+}
+
+#instruction{
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-family:'Black Han Sans', sans-serif;
+}
+
+.reset{
+  text-align: center;
+}
+
+.reset-button{
+  margin-top: 20px;
+  display: center;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-family:'Black Han Sans', sans-serif;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #E2584D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.reset-button:hover {background-color: #c32c20}
+
+.reset-button:active {
+  background-color: #c32c20;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
